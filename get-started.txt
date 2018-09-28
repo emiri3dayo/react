@@ -1,0 +1,10 @@
+First, in the cmd type: npm install
+  - this will install all the dependencies and package you need/use in the app
+
+Then, to run the app, in the cmd type: npm start
+  - this will start the app locally to allow you to test it
+
+
+To get a walkthrough of the project template, start by jumping in the file index.js located under /src/index.js
+
+Happy learning!

@@ -1,0 +1,80 @@
+/**
+  variable.scss allows to declare constants to be used in other
+  component-related scss files such as primary and secondary
+  colors, style guidelines for shadow, border-radius, etc.
+**/
+
+//colors
+$colors: (
+  black: #000000,
+  black-text: #000000,
+  black-transparent: rgba(0, 0, 0, 0.3),
+  white: #ffffff,
+  white-text: #ffffff,
+  primary: #808080,
+  primary-dark: #707070,
+  accent-dark: #b59a6a,
+  darkgray: #222222,
+  midgray: #393939,
+  gray: #999999,
+  medium-gray: #c0c0c0,
+  very-light-gray: #f7f7f7,
+  purple: #8c00ff,
+  pink: #ff00c8,
+  orange: #eaa844,
+  secondary: white,
+  lightgray: #ededed,
+  gold: #c1a672,
+  green: #89ba2e,
+  gold-transparent: #c3aa77f2,
+  blue: blue,
+  red: red,
+  red-transparent: rgba(175, 25, 25, 0.95),
+);
+
+//breakpoints
+$breakpoints: (
+  mobile: 640px,
+  tablet: 780px,
+  small: 1024px,
+  medium: 1280px
+);
+
+$font-size: (
+  xxx-small: 12px,
+  xx-small: 14px,
+  x-small: 16px,
+  small: 18px,
+  medium: 22px,
+  large: 24px,
+  x-large: 28px,
+  xx-large: 45px,
+  xxx-large: 72px,
+  hundred: 100%,
+);
+
+$font-family: (
+  header: 'Baskerville',
+  primary: 'Roboto',
+  times: 'Times'
+);
+
+$font-weight: (
+  light: 300,
+  regular: 400,
+  medium: 500,
+  bold: 700
+);
+
+$letter-spacing:(
+  small: 1px,
+  medium: 2px,
+  big: 3px,
+);
+
+$box-shadows:(
+  double: #{0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)},
+  regular: 0 3px 6px rgba(0, 0, 0, 0.16),
+  regular-darker: 0 3px 6px rgba(0, 0, 0, 0.23),
+  material: 0 3px 7px 0 rgba(0, 0, 0, 0.3),
+)

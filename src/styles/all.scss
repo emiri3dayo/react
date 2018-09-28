@@ -1,0 +1,14 @@
+/*  Config files  */
+@import "_variables.scss";
+@import "­­­­­~normalize.css";
+@import "_mixins.scss";
+@import "styles.scss";
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+// Screens
+@import "../screens/Home/style.scss";
+
+// components
+@import "../components/Button/style.scss";
+@import "../components/Title/style.scss";

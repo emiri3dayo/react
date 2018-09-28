@@ -1,0 +1,12 @@
+// This is scss, a post-processor of css that gives a richer language than css, and then can be compiled in normal css to be usable by the browser
+
+.title {
+  @include font(primary, large, regular); // notable addition is including some style function called mixins
+
+  &-center { // another one is using '&' to copy the parent style selector, so here writing &-center is exactly the same as if we had typed .title-center at the root of the file. s  Makes the code nestable and cleaner
+    text-align: center;
+  }
+  &-size-xx-large {
+    font-size: map-get($font-size, xx-large); // we cal also use map-get to get values from objects. Here we retrieve the font-size called 'xx-large' from the variable $font-size (defined in the file styles/variables.scss)
+  }
+}
