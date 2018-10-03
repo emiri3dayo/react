@@ -136,12 +136,12 @@ strong,
 .button {
   display: inline-block;
   padding: 16px 28px;
-  border-radius: 4px;
-  background-color: #ffffff;
+  border-radius: 2px;
+  background-color: blue;
   cursor: pointer;
   font-size: 18px;
   text-align: center;
-  color: #000000;
+  color: #ffffff;
   user-select: none;
   transition: background-color 0.1s ease; }
 

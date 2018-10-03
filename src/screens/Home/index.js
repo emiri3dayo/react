@@ -34,7 +34,7 @@ class Home extends Component {
       <div className="home">
         <Title center>The home screen</Title> {/* see, here we just use the Title component we imported. You may notice we pass 'center' and we also pass 'The home screen' between the tags, I'll explain in the Title component file */}
         <div className="home-content">
-          <Button onClick={this.buttonPressed}>Click me</Button>
+          <Button onClick={this.buttonPressed}>Click me</Button>   
           <p>pressed {this.state.timesPressed} times</p> {/* we can still use normal html tags, it is html afterall right?... Well it is called JSX, but it is basically identical to html with some differences sometimes in capital letters and when we need to use javascript */}
         </div>
       </div>

@@ -3,12 +3,12 @@
 .button {
   display: inline-block;
   padding: 16px 28px;
-  border-radius: 4px;
-  background-color: map-get($colors, white);
+  border-radius: 2px;
+  background-color: map-get($colors, blue);
   cursor: pointer;
   font-size: map-get($font-size, small);
   text-align: center;
-  color: map-get($colors, black);
+  color: map-get($colors, white);
   user-select: none;
   transition: background-color 0.1s ease;
 }
