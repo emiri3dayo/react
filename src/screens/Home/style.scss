@@ -3,6 +3,9 @@
 .home {
   &-content {
     padding: 40px;
-    background-color: map-get($colors, gray);
   }
+}
+
+.desc{
+  padding-bottom:60px;
 }

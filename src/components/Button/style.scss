@@ -1,13 +1,17 @@
 // Button
 
 .button {
+  height: 48px;
   display: inline-block;
   padding: 16px 28px;
-  border-radius: 2px;
-  background-color: map-get($colors, blue);
+  background-color: map-get($colors, rose);
+
   cursor: pointer;
-  font-size: map-get($font-size, small);
+  font-family:map-get($font-family, primary);
+  font-size: map-get($font-size, xx-small);
+  letter-spacing: map-get($letter-spacing, big);
   text-align: center;
+  font-weight: map-get($font-weight, bold);
   color: map-get($colors, white);
   user-select: none;
   transition: background-color 0.1s ease;

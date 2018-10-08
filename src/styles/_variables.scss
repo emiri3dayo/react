@@ -28,8 +28,9 @@ $colors: (
   green: #89ba2e,
   gold-transparent: #c3aa77f2,
   blue: blue,
-  red: red,
+  rose: #F4523D,
   red-transparent: rgba(175, 25, 25, 0.95),
+  darkgreen:#323A24,
 );
 
 //breakpoints
@@ -68,8 +69,8 @@ $font-weight: (
 
 $letter-spacing:(
   small: 1px,
-  medium: 2px,
-  big: 3px,
+  medium: 2.5px,
+  big: 4px,
 );
 
 $box-shadows:(

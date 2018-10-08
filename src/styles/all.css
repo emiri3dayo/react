@@ -130,17 +130,22 @@ strong,
   text-align: center; }
 
 .home-content {
-  padding: 40px;
-  background-color: #999999; }
+  padding: 40px; }
+
+.desc {
+  padding-bottom: 60px; }
 
 .button {
+  height: 48px;
   display: inline-block;
   padding: 16px 28px;
-  border-radius: 2px;
-  background-color: blue;
+  background-color: #F4523D;
   cursor: pointer;
-  font-size: 18px;
+  font-family: "Roboto";
+  font-size: 14px;
+  letter-spacing: 4px;
   text-align: center;
+  font-weight: 700;
   color: #ffffff;
   user-select: none;
   transition: background-color 0.1s ease; }
@@ -156,3 +161,12 @@ strong,
     text-align: center; }
   .title-size-xx-large {
     font-size: 45px; }
+
+.navbar {
+  font-size: 12px;
+  padding: 16px; }
+
+a {
+  padding: 12px;
+  color: #323A24;
+  font-family: "Baskerville"; }

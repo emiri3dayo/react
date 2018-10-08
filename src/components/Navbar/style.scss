@@ -1,0 +1,12 @@
+// Button
+
+.navbar {
+  font-size: 12px;
+  padding: 16px;
+}
+
+a {
+  padding: 12px;
+  color: map-get($colors, darkgreen);
+  font-family:map-get($font-family, header);
+}

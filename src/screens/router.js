@@ -8,6 +8,7 @@ import {
 import history from 'utils/history';
 import settings from 'utils/settings';
 import Home from './Home';
+import Members from './Members';
 
 /*
   this is a react component. React component are 'classes' that have special
@@ -31,6 +32,7 @@ class Router extends Component {
         <div>
           <Switch>
             <Route path="/home" component={Home} />
+            <Route path="/members" component={Members} />
             <Redirect from="*" to={settings.DEFAULT_ROUTE} />
           </Switch>
         </div>

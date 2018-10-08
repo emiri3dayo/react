@@ -40,9 +40,12 @@ export default class Button extends Component {
   */
   render() {
     return (
-      <div className="button" onClick={this.props.onClick}>
+      <a href="/members">
+      <div className="button">
         {this.props.children} {/* wait... I said we only passed 1 prop, then what is that children one? This prop is passed 'automatically' by react when we add content inside the tags of our component. For example, a component <Potato color="blue">my name is bob</Potato>' would have a prop color set to blue, and also the prop 'children' set to "my name is bob". Note that these children can be any html (or rather jSX) so you could pass other components inside a component! */}
+
       </div>
+      </a>
     );
   }
 }
