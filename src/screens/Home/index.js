@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Button from 'components/Button'; // here we import some other react components to be able to use them in this file
-import Title from 'components/Title';
 import Navbar from 'components/Navbar';
 // SIDENOTE: when we import a component, let say Title. That gives us access to the class Title, but no component gets mounted in the page yet.
 // Its not the same as when we use that Title and use it that way <Title />, this is when the component gets added to the webpage and his special methods gets called.
