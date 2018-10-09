@@ -8,3 +8,4 @@ Then, to run the app, in the cmd type: npm start
 To get a walkthrough of the project template, start by jumping in the file index.js located under /src/index.js
 
 Happy learning!
+hello!
